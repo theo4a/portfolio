@@ -1,0 +1,17 @@
+.container {
+    height: 100px;
+    line-height: 100px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    vertical-align: middle;
+    margin: auto;
+}
+
+p {
+    font-size: 20px;
+    color: var(--app-text-color);
+}

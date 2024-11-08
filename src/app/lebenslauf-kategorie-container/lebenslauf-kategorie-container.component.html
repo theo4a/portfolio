@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="überschrift_container">
+    <p class="überschrift">
+      {{ kategorie }}
+    </p>
+  </div>
+
+  <div class="row" *ngFor="let ereignis of ereignisse">
+    <div class="datum_container">{{ ereignis.datum }}</div>
+    <div class="ereignis_container">
+      {{ ereignis.ueberschrift }}
+      <ul class="list">
+        <li *ngFor="let bulletpoint of ereignis.bulletpoints">
+          {{ bulletpoint }}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

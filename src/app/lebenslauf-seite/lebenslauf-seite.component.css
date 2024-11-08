@@ -1,0 +1,28 @@
+
+
+.row {
+    display: flex;
+    margin: 20px;
+    width: calc(100% - 40px);
+}
+
+img {
+    margin: 0px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.column {
+    color: var(--app-text-color);
+    font-size: 20px;
+    width: 100%;
+    margin-right: 5px;
+    background-color: var(--app-white-color);
+}
+
+.attribute {
+    width: 150px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}

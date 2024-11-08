@@ -1,0 +1,48 @@
+.header_top {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    background-color: var(--app-white-color);
+}
+
+.header_bottom {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    background-color: var(--app-white-color);
+    border-top: solid;
+    border-width: 2px;
+    border-color: var(--app-dark-white-color);
+}
+
+.header_bottom_line {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.title {
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 48px;
+    color: var(--app-text-color);
+}
+
+a {
+    text-align: center;
+    vertical-align: middle;
+    width: 33%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 50px;
+    color: var(--app-text-color);
+    text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+

@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: 400px;
+    background-color: var(--app-white-color);
+}
+
+img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 40px);
+    margin: 20px;
+    height: calc(100% - 40px);
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    color: var(--app-text-color);
+    font-size: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    border: 2px solid var(--app-text-color);
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--app-text-color);
+}
+
+.button:hover {
+    background-color: var(--app-text-color);
+    color: var(--app-white-color);
+}
+
+.headline {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.summary {
+    text-decoration: 2px underline var(--app-text-color);
+    position: absolute;
+    bottom: 0px;
+    font-size: 20px;
+    color: var(--app-text-color);
+}

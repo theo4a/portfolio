@@ -4,7 +4,6 @@ import { FilterPopupComponent } from "../filter-popup/filter-popup.component";
 import { Technologie } from '../../models/technologie';
 import { NgFor } from '@angular/common';
 import { TechnologieFilter } from '../../models/technologieFilter';
-import { log } from 'console';
 
 @Component({
     selector: 'app-technologien-und-skills-seite',
@@ -21,7 +20,6 @@ export class TechnologienUndSkillsSeiteComponent {
 
     constructor() {
         this.applyFilter(this.technologieFilter);
-        log("Du hurensohn");
     }
 
     applyFilter(technologieFilter : TechnologieFilter) {

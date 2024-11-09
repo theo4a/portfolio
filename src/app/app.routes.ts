@@ -4,8 +4,8 @@ import { ProjekteUndBerufserfahrungSeiteComponent } from './projekte-und-berufse
 import { TechnologienUndSkillsSeiteComponent } from './technologien-und-skills-seite/technologien-und-skills-seite.component';
 
 export const routes: Routes = [
-    //{path: '', redirectTo: 'lebenslauf', pathMatch: 'full'},
-    {path: 'lebenslauf', component: LebenslaufSeiteComponent},
-    {path: 'projekte-und-berufserfahrung', component: ProjekteUndBerufserfahrungSeiteComponent},
-    {path: 'technologien-und-skills', component: TechnologienUndSkillsSeiteComponent},
+    {path: '', redirectTo: 'lebenslauf', pathMatch: 'full'},
+    {path: 'portfolio/lebenslauf', component: LebenslaufSeiteComponent},
+    {path: 'portfolio/projekte-und-berufserfahrung', component: ProjekteUndBerufserfahrungSeiteComponent},
+    {path: 'portfolio/technologien-und-skills', component: TechnologienUndSkillsSeiteComponent},
 ];

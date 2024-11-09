@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <div class="row">
+        <p class="attribute">Name</p>
+        <p class="value">Theo Mahl</p>
+      </div>
+      <div class="row">
+        <p class="attribute">Adresse</p>
+        <p class="value">Markusstr. 50, 47055 Duisburg</p>
+      </div>
+      <div class="row">
+        <p class="attribute">Telefon</p>
+        <p class="value">+49(0)157/80941854</p>
+      </div>
+      <div class="row">
+        <p class="attribute">Email</p>
+        <p class="value">kontakt&#64;theo-mahl.me</p>
+      </div>
+    </div>
+    <img src="images/passbild.jpg" alt="" />
+  </div>
+  <app-lebenslauf-kategorie-container
+    *ngFor="let container of containers"
+    kategorie="{{ container.title }}"
+    [ereignisse]="container.ereignisse"
+  ></app-lebenslauf-kategorie-container>
+</div>

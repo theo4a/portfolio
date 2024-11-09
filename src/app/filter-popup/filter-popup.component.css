@@ -1,0 +1,33 @@
+.filter_button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 0px;
+    font-size: 20px;
+    color: var(--app-text-color);
+    border: 2px solid var(--app-text-color);
+    background-color: var(--app-white-color);
+}
+
+.filter_button:hover {
+    background-color: var(--app-text-color);
+    color: var(--app-white-color);
+    cursor: pointer;
+}
+
+.popup_container {
+    height: calc(100% - 200px);
+    margin-left: 10px;
+}
+
+p {
+    font-size: 20px;
+    color: var(--app-text-color);
+}
+
+.checkbox {
+    border: 2px solid var(--app-text-color);
+    border-radius: 0px;
+    color: green;
+    background-color: green;
+}

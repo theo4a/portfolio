@@ -1,0 +1,10 @@
+<app-filter-popup
+  (technologiefilterEmitter)="applyFilter($event)"
+></app-filter-popup>
+<div class="container">
+  <app-technologie-container
+    *ngFor="let technologie of technologien"
+    text="{{ technologie.name }}"
+    image_url="images/1.jpg"
+  ></app-technologie-container>
+</div>

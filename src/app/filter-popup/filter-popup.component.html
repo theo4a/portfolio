@@ -1,0 +1,63 @@
+<button class="filter_button" (click)="togglePopup()">Filter</button>
+<div class="popup_container" [hidden]="!isPopupVisible">
+  <p>Kategorien</p>
+  <div class="row">
+    <p>
+      <input
+        class="checkbox"
+        type="checkbox"
+        [(ngModel)]="programmierSprachen"
+        (click)="updateTechnologieFilter()"
+      />
+      Programmier Sprachen
+    </p>
+    <p>
+      <input
+        class="checkbox"
+        type="checkbox"
+        [(ngModel)]="frameworks"
+        (click)="updateTechnologieFilter()"
+      />
+      Frameworks
+    </p>
+    <p>
+      <input
+        class="checkbox"
+        type="checkbox"
+        [(ngModel)]="programme"
+        (click)="updateTechnologieFilter()"
+      />
+      Programme
+    </p>
+  </div>
+  <p>Skill Level</p>
+  <div class="row">
+    <p>
+      <input
+        class="checkbox"
+        type="checkbox"
+        [(ngModel)]="sehrGut"
+        (click)="updateTechnologieFilter()"
+      />
+      Sehr gut
+    </p>
+    <p>
+      <input
+        class="checkbox"
+        type="checkbox"
+        [(ngModel)]="sicher"
+        (click)="updateTechnologieFilter()"
+      />
+      Sicher
+    </p>
+    <p>
+      <input
+        class="checkbox"
+        type="checkbox"
+        [(ngModel)]="grundKenntnisse"
+        (click)="updateTechnologieFilter()"
+      />
+      Grundkenntnisse
+    </p>
+  </div>
+</div>

@@ -53,11 +53,3 @@ a {
     margin-top: 20px;
     font-size: 20px;
 }
-
-.summary {
-    text-decoration: 2px underline var(--app-text-color);
-    position: absolute;
-    bottom: 0px;
-    font-size: 20px;
-    color: var(--app-text-color);
-}

@@ -1,11 +1,6 @@
-<div (click)="toggleHidden()" class="container">
-    <img src={{image_url}} alt="">
-    <div class="row">
-        <p>{{text}}</p>
-    </div>
-</div>
-<div [hidden]="hidden" (click)="toggleHidden()" class="popup_background">
-    <div class="scrollable_container">
-        hallo
-    </div>
+<div class="container">
+  <img src="{{ technologie?.image_url }}" alt="" />
+  <div class="row">
+    <p>{{ technologie?.name }}</p>
+  </div>
 </div>

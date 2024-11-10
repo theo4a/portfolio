@@ -17,25 +17,33 @@ export class ProjekteUndBerufserfahrungSeiteComponent {
             "Contrast Render Website",
             "",
             "https://contrastrender.com",
-            "images/contrastrender-website.jpg"
+            "images/contrastrender-website.jpg",
+            "Angular, Firebase-Hosting, Notion",
+            "1",
         ),
         new Project(
             "Imfit (Fitness App)",
             "",
-            "https://imfit-aa5d1.web.app/",
-            "images/imfit_logo.jpg"
+            "https://imfit---homepage.web.app/",
+            "images/imfit-homepage.jpg",
+            "Angular, Javascript, Firebase-Hosting, Firebase-Storage, Firebase-Firestore, Flutter, Spoonacular-Api, O-Auth2",
+            "2",
         ),
         new Project(
             "Terrain Scapes (Blender Extension)",
             "",
-            "https://contrastrender.com",
-            "images/1.jpg"
+            "https://blendermarket.com/products/terrain-scapes",
+            "images/terrain_scapes.jpg",
+            "Blender, Blender Python-Api, Blender Geometry-Nodes, Blender Shader-Editor",
+            "3",
         ),
         new Project(
             "Pro Atmo (Blender Extension)",
             "",
-            "https://contrastrender.com",
-            "images/1.jpg"
+            "https://blendermarket.com/products/pro-atmo",
+            "images/pro_atmo.jpg",
+            "Blender, Blender Python-Api, Blender Geometry-Nodes, Blender Shader-Editor",
+            "4",
         ),
     ]
 

@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Technologie } from '../models/technologie';
 
 @Component({
   selector: 'app-technologie-container',
@@ -8,13 +9,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './technologie-container.component.css'
 })
 export class TechnologieContainerComponent {
-@Input() text: string = "";
-@Input() image_url: string = "";
 
-hidden: boolean = true;
-
-toggleHidden () {
-  this.hidden = !this.hidden;
-}
+@Input() technologie?: Technologie;
 
 }

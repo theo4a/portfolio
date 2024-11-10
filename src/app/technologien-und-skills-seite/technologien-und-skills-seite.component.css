@@ -1,4 +1,10 @@
-
+.label {
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--app-text-color);
+}
 
 .container {
     margin-bottom: 5px;

@@ -21,15 +21,19 @@ export class LebenslaufSeiteComponent {
                 "Seit 2023",
                 "Programmeriung einer Web / Android / IOS Application",
                 [
-                  "Homepage: https://link-zur-homepage-der-app",
-                  "Webversion: https://link-blablabla",
-                  ""
+                  "API nutzung einer Lebensmittel Datenbank mit über 1.000.000 Datensätzen",
+                  "Fortgeschrittene Such/Tracking-Funktionen",
+                  "login Funktionalität",
+                  "Kostenlose & Werbefreie Nutzung möglich",
+                  "Homepage: https://imfit---homepage.web.app",
+                  "Webversion: https://imfit-aa5d1.web.app",
                 ]
               ),
               new Ereignis(
                 "Seit 2021",
                 "Gewerbliche Tätigkeit, Verkauf von Programm-Erweiterungen für 3D Software",
                 [
+                  "Erweiterungen des Kostenlosen Open-Source Programm Blender",
                   "Shop: https://blendermarket.com/creators/contrastrender",
                   "Nutzung der Python API von Blender zum erstellen von Programmerweiterungen",
                   "2000+ Nutzer",

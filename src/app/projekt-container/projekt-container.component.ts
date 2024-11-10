@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Project } from '../models/project';
 
 @Component({
   selector: 'app-projekt-container',
@@ -8,7 +9,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './projekt-container.component.css'
 })
 export class ProjektContainerComponent {
-@Input() title: string = "";
-@Input() image_url: string = "";
-@Input() projekt_url: string = "";
+
+@Input() project?: Project;
+
 }

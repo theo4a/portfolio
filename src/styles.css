@@ -15,6 +15,7 @@ body {
 }
 
 :root {
+    --app-gray-color: hsl(0, 0%, 70%);
     --app-highlight-color: hsl(200, 90%, 50%);
     --app-white-color: hsl(0, 0%, 100%);
     --app-dark-white-color: hsl(0, 0%, 90%);

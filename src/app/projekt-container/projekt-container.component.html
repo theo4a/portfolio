@@ -8,8 +8,14 @@
     <a href="">
       <div class="button">Github</div>
     </a>
-    <p class="headline">
-      Benutzte Technologien: {{ project?.benutze_technologien }}
-    </p>
+    <p class="headline">Benutzte Technologien:</p>
+    <div class="technologien-container">
+      <p
+        *ngFor="let technologie of project?.benutze_technologien"
+        class="technologie"
+      >
+        {{ technologie }}
+      </p>
+    </div>
   </div>
 </div>

@@ -1,12 +1,13 @@
-.page {
-    background-color: var(--app-dark-white-color);
-    width: 100%;
-    min-height: calc(100vh - 150px);
-}
-
 .body {
     display: flex;
     flex-direction: column;
     max-width: 1000px;
     margin: auto;
+}
+
+.page {
+    background-color: var(--app-dark-white-color);
+    min-width: 1000px;
+    width: 100%;
+    min-height: calc(100vh - 150px);
 }

@@ -14,27 +14,49 @@ import { Container } from '../models/container';
 export class LebenslaufSeiteComponent {
 
     containers: Container[] = [
+      new Container(
+        "Über mich",
+        [
+          new Ereignis(
+            "Name",
+            "Theo Mahl",
+            []
+          ),
+          new Ereignis(
+            "Adresse",
+            "Markusstr. 50, 47055 Duisburg",
+            []
+          ),
+          new Ereignis(
+            "Telefon",
+            "+49 15560 292336",
+            []
+          ),
+          new Ereignis(
+            "Email",
+            "theomahl2002@gmail.com",
+            []
+          ),
+       ]
+     ),
         new Container(
             "Berufserfahrung",
             [
               new Ereignis(
                 "Seit 2023",
-                "Programmeriung einer Web / Android / IOS Application",
+                "Programmeriung eines Web / Android / IOS Programms",
                 [
                   "API nutzung einer Lebensmittel Datenbank mit über 1.000.000 Datensätzen",
                   "Fortgeschrittene Such/Tracking-Funktionen",
                   "login Funktionalität",
                   "Kostenlose & Werbefreie Nutzung möglich",
-                  "Homepage: https://imfit---homepage.web.app",
-                  "Webversion: https://imfit-aa5d1.web.app",
                 ]
               ),
               new Ereignis(
                 "Seit 2021",
-                "Gewerbliche Tätigkeit, Verkauf von Programm-Erweiterungen für 3D Software",
+                "Gewerbliche Tätigkeit, Erstellung von Programm-Erweiterungen für 3D Software",
                 [
                   "Erweiterungen des Kostenlosen Open-Source Programm Blender",
-                  "Shop: https://blendermarket.com/creators/contrastrender",
                   "Nutzung der Python API von Blender zum erstellen von Programmerweiterungen",
                   "2000+ Nutzer",
                   "400+ Zahlende Kunden"
@@ -57,14 +79,14 @@ export class LebenslaufSeiteComponent {
                   "Seit 2022",
                   "Universität Düsseldorf, Bsc Informatik",
                   [
-                    "Erwarteter Abschluss im Juli 2025",
+                    "Erwarteter Abschluss im Januar 2026",
                   ]
                 ),
                 new Ereignis(
                   "2021 - 2022",
                   "Hochschule-Ruhr-West Bottrop, Bsc Wirtschaftsingenieurwesen für Energiesysteme",
                   [
-                    "Belegte Module: Mathe 1, Projekt-Management, Elektrotechnik, Energiesysteme, VWL"
+                    "Abgeschlossene Module: Mathe 1, Projekt-Management, Elektrotechnik, Energiesysteme, VWL"
                   ]
                 ),
                 new Ereignis(
@@ -72,7 +94,8 @@ export class LebenslaufSeiteComponent {
                   "Mercator Gymnasium, Abitur",
                   [
                     "Abschlussnote 2,9",
-                    "Mitglied der Forscher A.G."
+                    "Mitglied der Forscher A.G.",
+                    "LKs: Sport, Deutsch"
                   ]
                 ),
               ]
@@ -84,19 +107,51 @@ export class LebenslaufSeiteComponent {
                   "Sprachen",
                   "",
                   [
-                    "Muttersprache: Deutsch",
-                    "Fließend: Englisch",
-                    "Grundlagen: Italienisch"
+                    "Deutsch",
+                    "Englisch",
                   ]
                 ),
                 new Ereignis(
-                  "Technologien",
+                  "Programmiersprachen",
                   "",
                   [
-                    "Programmiersprachen: Java, C, Python",
-                    "Container: Docker, Kubernetes",
-                    "Sonstiges: Http, AWS, Git",
-                    "Programmer: MS Office, Adobe CC, Blender"
+                    "Java",
+                    "Python",
+                    "C",
+                    "Javascript"
+                  ]
+                ),
+                new Ereignis(
+                  "Frameworks",
+                  "",
+                  [
+                    "Spring-Boot",
+                    "Angular",
+                    "React",
+                    "Flutter"
+                  ]
+                ),
+                new Ereignis(
+                  "Programme",
+                  "",
+                  [
+                    "Docker",
+                    "Kubernetes",
+                    "MS Office",
+                    "Adobe CC",
+                    "Blender",
+                  ]
+                ),
+                new Ereignis(
+                  "Sonstiges",
+                  "",
+                  [
+                    "SQL",
+                    "Json",
+                    "Http Protokol",
+                    "AWS",
+                    "Firebase",
+                    "Git"
                   ]
                 ),
                 new Ereignis(
@@ -104,6 +159,8 @@ export class LebenslaufSeiteComponent {
                   "",
                   [
                     "Kanu-Rennsport",
+                    "3D-modelierung",
+                    "Programmieren"
                   ]
                 ),
               ]

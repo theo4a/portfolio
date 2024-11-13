@@ -4,6 +4,7 @@
 }
 
 .überschrift_container {
+    border: 1px solid var(--app-gray-color);
     background-color: var(--app-white-color);
     padding: 10px;
     padding-left: 20px;
@@ -21,17 +22,19 @@
 }
 
 .datum_container {
+    border: 1px solid var(--app-gray-color);
     font-size: 20px;
     font-weight: bold;
     color: var(--app-text-color);
     padding: 10px;
     padding-left: 20px;
-    width: 200px;
+    width: 300px;
     margin-right: 5px;
     background-color: var(--app-white-color);
 }
 
 .ereignis_container {
+    border: 1px solid var(--app-gray-color);
     font-size: 20px;
     font-weight: bold;
     color: var(--app-text-color);

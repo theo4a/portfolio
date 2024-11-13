@@ -1,4 +1,5 @@
 .container {
+    border-top: 1px solid var(--app-gray-color);
     height: 100px;
     line-height: 100px;
 }

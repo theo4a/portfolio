@@ -8,19 +8,21 @@
 }
 
 .header_bottom {
+    border-bottom: 1px solid var(--app-gray-color);
+    border-top: 1px solid var(--app-gray-color);
     position: sticky;
     top: 0px;
     z-index: 1;
     width: 100%;
     height: 50px;
     background-color: var(--app-white-color);
-    border-top: solid;
-    border-width: 2px;
-    border-color: var(--app-dark-white-color);
 }
 
-.header_bottom_line {
-    max-width: 1000px;
+.header_bottom_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1000px;
     margin: auto;
 }
 
@@ -33,9 +35,6 @@
 
 a {
     text-align: center;
-    vertical-align: middle;
-    width: 33%;
-    display: inline-block;
     font-size: 20px;
     line-height: 50px;
     color: var(--app-text-color);
